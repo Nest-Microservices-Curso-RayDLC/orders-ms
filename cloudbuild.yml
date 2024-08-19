@@ -13,6 +13,8 @@ steps:
       'push',
       'southamerica-west1-docker.pkg.dev/tienda-microservicios-432921/image-registry/orders-ms-prod',
     ]
+options:
+  logging: CLOUD_LOGGING_ONLY
 
 availableSecrets:
   secretManager:
